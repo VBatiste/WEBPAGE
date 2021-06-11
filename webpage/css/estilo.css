@@ -1,0 +1,89 @@
+html{
+    font-size: 15px;
+    font-family:'Open sans', sans-serif;
+    background-color: gray;
+    
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    background-color:darkslategray;
+    margin:0 auto;
+    color: white ;
+    width: 50%;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 15px;
+    text-align: center;
+    color:darkslategray;
+}
+
+
+body{
+    width: 75%;
+    margin: 0 auto;
+    background-color: darkgray;
+    padding: 0px 25px 25px 25px;
+    border-radius: 10px;
+}
+
+p{
+text-align: left;
+margin-top: 20px;
+margin-bottom:15px;
+margin-left: 10px;
+color: azure;
+}
+
+li {
+    list-style-type: none;
+  }
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.caixa{
+ background-color: dimgray;
+ height: 50%;
+ width: 50%;
+ padding: 0px 2px 2px 0px;
+ text-align: center;
+ margin: 10px;
+ border-radius: 10px ;
+ display: block;
+ box-shadow: black 10px 5px 10px;
+ font-size: 20px;
+}
+   
+.caixa:hover{
+    background-color: azure;
+    opacity: 50%;
+}
+
+.retrato img{
+    width: 250px;
+    margin: 0 auto ;
+    display: block;
+    border: 10px solid darkslategray;
+    border-radius:200px ;
+}
+
+.maisEu{
+    background-color: dimgray;
+    height: 75%;
+    width: 75%;
+    text-align: center;
+    line-height: 1,5;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 5px 10px ;
+    border-radius: 3px;
+}
+

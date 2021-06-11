@@ -1,0 +1,77 @@
+html{
+    font-size: 15px;
+    font-family:'Open sans', sans-serif;
+    background-color: gray;
+    
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    background-color:darkslategray;
+    margin:0 auto;
+    color: white ;
+    width: 50%;
+    border-radius: 5px;
+}
+body{
+    width: 75%;
+    margin: 0 auto;
+    background-color: darkgray;
+    padding: 0px 25px 25px 5px;
+    border-radius: 10px;
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px 5px 0 5px;
+}
+.switch{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    background-color: rgb(43, 60, 61);
+    border-radius: 5px;
+    }
+    .box1{
+    
+    height: 100%;
+        width: 100%;
+        text-align: center;
+        color: black ;
+    }
+    
+    .box2{
+        
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        color: black ;
+    }
+    
+    .box3{
+        
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        color: black ;
+    }
+    .box1:hover{
+        background-color: rgb(209, 209, 209);
+        opacity: 50%;
+    }
+    .box2:hover{
+        background-color: rgb(209, 209, 209);
+        opacity: 50%;
+    }
+    .box3:hover{
+        background-color: rgb(209, 209, 209);
+        opacity: 50%;
+    }
+    .agenda{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 20px;
+        margin-top: 15px;
+    }
